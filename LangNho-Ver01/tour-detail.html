@@ -28,62 +28,12 @@
   <body>
     <!--=================================
     Header -->
-    <header class="header header-sticky default">
-      <div class="topbar d-none d-md-block">
-        <div class="container">
-          <div class="topbar-inner">
-            <div class="row">
-              <div class="col-12">
-                <div class="d-lg-flex align-items-center text-center">
-                  <div class="topbar-left mb-2 mb-lg-0">
-                    <div class="topbar-call d-inline-flex">
-                      <a href="mailto:info@example.com"><img src="images/phone.svg" alt="#"> Call Services  +126-632-2345</a>
-                    </div>
-                    <div class="me-auto d-inline-flex">
-                      <a href="tel:1-800-555-1234"><i class="fa-solid fa-location-dot me-2"></i>220E Front St. Burlington NC 27215</a>
-                    </div>
-                  </div>
-                  <div class="topbar-right ms-auto justify-content-center">
-                    <div class="social d-inline-flex">
-                      <ul class="list-unstyled">
-                        <li><a href="#"> <i class="fa-brands fa-facebook-f"></i> </a></li>
-                        <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
-                        <li><a href="#"> <i class="fa-brands fa-linkedin"></i> </a></li>
-                        <li><a href="#"> <i class="fab fa-instagram"></i> </a></li>
-                      </ul>
-                    </div>
-                    <div class="dropdown d-inline-flex ps-4">
-                      <a class="dropdown-toggle" href="#" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        USD<i class="fas fa-chevron-down fa-xs"></i>
-                      </a>
-                      <div class="dropdown-menu mt-0" aria-labelledby="dropdownMenuButton1">
-                        <a class="dropdown-item" href="#"><i class="fa-solid fa-dollar-sign"></i> USD</a>
-                        <a class="dropdown-item" href="#"><i class="fa-solid fa-indian-rupee-sign"></i> INR</a>
-                        <a class="dropdown-item" href="#"><i class="fa-solid fa-euro-sign"></i> EURO</a>
-                      </div>
-                    </div>
-                    <div class="dropdown right-menu d-inline-flex ps-4">
-                      <a class="dropdown-toggle" href="#" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img class="img-fluid" src="images/en.png" alt=""> English<i class="fas fa-chevron-down fa-xs"></i>
-                      </a>
-                      <div class="dropdown-menu mt-0" aria-labelledby="dropdownMenuButton2">
-                        <a class="dropdown-item" href="#"><img class="img-fluid country-flag" src="images/country-flags/02.jpg" alt="">English</a>
-                        <a class="dropdown-item" href="#"><img class="img-fluid country-flag" src="images/country-flags/09.jpg" alt="">Francais</a>
-                        <a class="dropdown-item" href="#"><img class="img-fluid country-flag" src="images/country-flags/11.jpg" alt="">Deutsch</a>
-                        <a class="dropdown-item" href="#"><img class="img-fluid country-flag" src="images/country-flags/12.jpg" alt="">Italiano</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <header class="header header-3 header-sticky default">
       <nav class="navbar navbar-static-top navbar-expand-lg">
-        <div class="container main-header position-relative">
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"><i class="fas fa-align-left"></i></button>
-          <a class="navbar-brand" href="index.html">
+        <div class="container-fluid main-header position-relative">
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"><i
+              class="fas fa-align-left"></i></button>
+          <a class="navbar-brand" href="index-03.html" style="width: 4%">
             <img class="img-fluid" src="images/logo.png" alt="logo">
           </a>
           <div class="navbar-collapse collapse justify-content-end">
@@ -91,17 +41,12 @@
               <li class="nav-item dropdown">
                 <a class="nav-link" href="index-03.html">Home</i></a>
               </li>
-              
-              <li class="dropdown nav-item">
-                <a class="nav-link" href="javascript:void(0)" data-bs-toggle="dropdown">Tour<i class="fas fa-chevron-down fa-xs"></i></a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="tour-search.html"><span>Tour Search</span></a></li>
-                  <li><a class="dropdown-item" href="tour-list.html"><span>Tour List</span></a></li>
-                  <li><a class="dropdown-item" href="tour-grid.html"><span>Tour Grid</span></a></li>
-                  <li class="active"><a class="dropdown-item" href="tour-detail.html"><span>Tour Details</span></a></li>
-                </ul>
+              <li class="dropdown nav-item active">
+                <a class="nav-link" href="tour-grid.html">Tour</a>
               </li>
-              
+              <li class="dropdown nav-item">
+                <a class="nav-link" href="about-us.html">About us</a>
+              </li>
               <li class="dropdown nav-item">
                 <a class="nav-link" href="contact-us.html">Contact us</a>
               </li>
@@ -111,39 +56,9 @@
             <div class="woo-action">
               <ul class="list-unstyled">
                 <li class="cart dropdown">
-                  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <span class="cart-icon"><object type="image/svg+xml" data="images/cart.svg" class="icon"></object></span>
-                  <span class="cart-count">2</span></button>
-                  <div class="dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-                    <ul class="cart-list ps-0">
-                      <li class="d-flex">
-                        <a class="remove-item" href="#"><i class="fas fa-times"></i></a>
-                        <img class="img-fluid me-3" src="images/product/01.jpg" alt="">
-                        <div class="cart-info">
-                          <a href="#">Extra Fine Wool Jumpers</a>
-                          <span class="d-block">1 x 12.49</span>
-                        </div>
-                      </li>
-                      <li class="d-flex">
-                        <a class="remove-item" href="#"><i class="fas fa-times"></i></a>
-                        <img class="img-fluid me-3" src="images/product/02.jpg" alt="">
-                        <div class="cart-info">
-                          <a href="#"> Men’s Standard Fit Crew T-Shirt</a>
-                          <span class="d-block">1 x 28.72</span>
-                        </div>
-                      </li>
-                    </ul>
-                    <div class="cart-footer">
-                      <div class="d-flex mb-3">
-                        <b class="me-auto text-dark">Subtotal:</b>
-                        <span>$41.21</span>
-                      </div>
-                      <div class="d-inline-block d-sm-flex">
-                        <a class="col btn btn-secondary btn-sm me-2 px-4" href="#">View Cart</a>
-                        <a class="col btn btn-sm btn-primary ms-0 mt-1 mt-sm-0 ms-sm-2 px-4" href="#">Checkout</a>
-                      </div>
-                    </div>
-                  </div>
+                  <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+  
                 </li>
               </ul>
             </div>
@@ -152,25 +67,28 @@
                 <ul class="list-unstyled mb-0">
                   <li class="dropdown nav-item header-search search-icon">
                     <a href="#search">
-                      <svg version="1.1" id="Capa_1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px"
-                        viewBox="0 0 487.95 487.95" style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
+                      <svg version="1.1" id="Capa_1" xmlns="https://www.w3.org/2000/svg"
+                        xmlns:xlink="https://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 487.95 487.95"
+                        style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
                         <g>
                           <g>
-                            <path d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1
-                              c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4
-                              c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"/>
-                            </g>
+                            <path
+                              d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1
+                                c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4
+                                c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z" />
                           </g>
-                        </svg>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+                        </g>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
+  
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
       <!--=================================
       Header -->
       <!--=================================
