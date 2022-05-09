@@ -5756,24 +5756,24 @@ textarea.form-control {
             transform: translateY(-50%); }
   .map-listing .map-icon.icon-02 {
     position: absolute;
-    top: 10%;
-    left: 45%; }
+    top: 45%;
+    left: 51%; }
   .map-listing .map-icon.icon-03 {
     position: absolute;
     top: 30%;
     left: 25%; }
   .map-listing .map-icon.icon-04 {
     position: absolute;
-    top: 10%;
-    left: 63%; }
+    top: 46%;
+    left: 69%; }
   .map-listing .map-icon.icon-05 {
     position: absolute;
-    top: 38%;
-    right: 8%; }
+    top: 74%;
+    right: 13%; }
   .map-listing .map-icon.icon-06 {
     position: absolute;
-    top: -10%;
-    right: 10%; }
+    top: 25%;
+    right: 16%; }
 
 /*Blockquote*/
 blockquote {
@@ -5806,17 +5806,17 @@ blockquote {
   .map-listing {
     height: 540px; }
     .map-listing .map-icon.icon-03 {
-      top: 20%;
-      left: 25%; }
+      top: 66%;
+      left: 30%; }
     .map-listing .map-icon.icon-04 {
-      top: -4%;
-      left: 62%; }
+      top: 46%;
+      left: 69%; }
     .map-listing .map-icon.icon-05 {
-      top: 28%;
-      right: 5%; }
+      top: 74%;
+      right: 13%; }
     .map-listing .map-icon.icon-06 {
-      top: -20%;
-      right: 8%; }
+      top: 25%;
+      right: 16%; }
   .contant-404 h2 {
     font-size: 48px; } }
 
