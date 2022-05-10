@@ -469,7 +469,7 @@
 }
 
 .space-pb {
-  padding: 0 0 100px;
+  padding: 100px 0 100px 0;
 }
 
 .h-100vh {
@@ -522,7 +522,7 @@
   }
 
   .space-pb {
-    padding: 0 0 80px;
+    padding: 80px 0 80px 0;
   }
 }
 
@@ -536,7 +536,7 @@
   }
 
   .space-pb {
-    padding: 0 0 60px;
+    padding: 60px 0 60px 0;
   }
 }
 
@@ -550,7 +550,7 @@
   }
 
   .space-pb {
-    padding: 0 0 50px;
+    padding: 50px 0 50px 0;
   }
 }
 
@@ -564,7 +564,7 @@
   }
 
   .space-pb {
-    padding: 0 0 40px;
+    padding: 40px 0 40px 0;
   }
 }
 
@@ -6069,7 +6069,7 @@ input[type="radio"]:radio {
 }
 
 .header .topbar {
-  background: #102636;
+  background: #dac79f;
 }
 
 /* Topbar */
