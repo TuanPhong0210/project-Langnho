@@ -7729,7 +7729,7 @@ textarea.form-control {
 
 /*Map Listing*/
 .map-listing {
-  height: 220vh;
+  height: 1700px;
   position: relative;
 }
 
@@ -7777,27 +7777,29 @@ textarea.form-control {
 .map-listing .map-icon.icon-01 {
   position: absolute;
   top: 2.5%;
-  left: 43.5%;
+  left: 45.5%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-
+.i-map-first {
+  font-size: 90px !important;
+}
 .map-listing .map-icon.icon-02 {
   position: absolute;
-  top: 20.6%;
-  left: 29%;
+  top: 25%;
+  left: 27.3%;
 }
 
 .map-listing .map-icon.icon-03 {
   position: absolute;
-  top: 20.3%;
-  left: 24.4%;
+  top: 24.5%;
+  left: 22%;
 }
 
 .map-listing .map-icon.icon-04 {
   position: absolute;
-  top: 23.6%;
-  left: 23.6%;
+  top: 27.5%;
+  left: 21%;
 }
 
 .map-listing .map-icon.icon-05 {
@@ -7854,17 +7856,27 @@ blockquote i {
   }
 
   .map-listing {
-    height: 170vh;
+    height: 1300px;
   }
-
+  .map-listing .map-icon.icon-01 {
+    top: 2.5%;
+    left: 42%;
+  }
+  .i-map-first {
+    font-size: 70px !important;
+  }
+  .map-listing .map-icon.icon-02 {
+    top: 20.8%;
+    left: 26.1%;
+}
   .map-listing .map-icon.icon-03 {
-    top: 66%;
-    left: 30%;
+    top: 20.5%;
+    left: 21%;
   }
 
   .map-listing .map-icon.icon-04 {
-    top: 46%;
-    left: 69%;
+    top: 23.2%;
+    left: 20%;
   }
 
   .map-listing .map-icon.icon-05 {
@@ -7896,9 +7908,11 @@ blockquote i {
   }
 
   .map-listing {
-    height: 130vh;
+    height: 1000px;
   }
-
+  .map-listing .contant i {
+    font-size: 16px;
+  }
   .map-listing .contant .map-img {
     width: 100px;
   }
@@ -7906,25 +7920,26 @@ blockquote i {
   .map-listing .contant .map-img p {
     display: none;
   }
-
   .map-listing .map-icon.icon-01 {
-    top: 10%;
-    left: 10%;
+    top: 2%;
+    left: 43.5%;
   }
-
+  .i-map-first {
+    font-size: 60px !important;
+  }
   .map-listing .map-icon.icon-02 {
-    top: 10%;
-    left: 45%;
+    top: 21.6%;
+    left: 27%;
   }
 
   .map-listing .map-icon.icon-03 {
-    top: 30%;
-    left: 25%;
+    top: 21.5%;
+    left: 22%;
   }
 
   .map-listing .map-icon.icon-04 {
-    top: 10%;
-    left: 63%;
+    top: 24.5%;
+    left: 21%;
   }
 
   .map-listing .map-icon.icon-05 {
@@ -7960,7 +7975,12 @@ blockquote i {
   .map-listing {
     height: 800px;
   }
-
+  .i-map-first {
+    font-size: 50px !important;
+  }
+  .map-listing .contant i {
+    font-size: 12px;
+  }
   .map-listing .contant .map-img {
     width: 100px;
   }
@@ -7970,8 +7990,8 @@ blockquote i {
   }
 
   .map-listing .map-icon.icon-01 {
-    top: 10%;
-    left: 10%;
+    top: 0%;
+    left: 41%;
   }
 
   .map-listing .map-icon.icon-02 {
@@ -7980,13 +8000,13 @@ blockquote i {
   }
 
   .map-listing .map-icon.icon-03 {
-    top: 30%;
-    left: 25%;
+    top: 17.5%;
+    left: 18%;
   }
 
   .map-listing .map-icon.icon-04 {
-    top: -10%;
-    left: 60%;
+    top: 20%;
+    left: 16.5%;
   }
 
   .map-listing .map-icon.icon-05 {
@@ -8066,7 +8086,7 @@ blockquote i {
   }
 
   .map-listing .contant i {
-    font-size: 14px;
+    font-size: 8px;
   }
 
   .map-listing .contant .map-img {
@@ -8076,25 +8096,27 @@ blockquote i {
   .map-listing .contant .map-img p {
     display: none;
   }
-
+  .i-map-first {
+    font-size: 35px !important;
+  }
   .map-listing .map-icon.icon-01 {
-    top: 0%;
-    left: 5%;
+    top: -2%;
+    left: 36%;
   }
 
   .map-listing .map-icon.icon-02 {
-    top: -26%;
-    left: 38%;
+    top: 10.2%;
+    left: 21.3%;
   }
 
   .map-listing .map-icon.icon-03 {
-    top: -10%;
-    left: 12%;
+    top: 10%;
+    left: 16%;
   }
 
   .map-listing .map-icon.icon-04 {
-    top: -38%;
-    left: 57%;
+    top: 13%;
+    left: 15.5%;
   }
 
   .map-listing .map-icon.icon-05 {
