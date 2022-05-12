@@ -98,7 +98,7 @@
 }
 
 .bg-secondary {
-  background: #dac79f !important;
+  background: #638d3d !important;
 }
 
 .bg-light {
@@ -3953,7 +3953,7 @@ ul.list.list-circle li i {
   font-weight: bold;
   line-height: 36px;
   font-size: 20px;
-  color: #dac79f;
+  color: #638d3d;
   font-family: "Playfair Display", serif;
   display: block;
 }
@@ -6069,7 +6069,7 @@ input[type="radio"]:radio {
 }
 
 .header .topbar {
-  background: #dac79f;
+  background: #638d3d;
 }
 
 /* Topbar */
@@ -6090,11 +6090,11 @@ input[type="radio"]:radio {
 }
 
 .header .topbar-inner .topbar-left a:hover {
-  color: #638d3d;
+  color: #dac79f;
 }
 
 .header .topbar-inner .topbar-left a i {
-  color: #638d3d;
+  color: #ffffff;
 }
 
 .header .topbar-inner .topbar-left .topbar-call {
@@ -6167,7 +6167,7 @@ input[type="radio"]:radio {
 }
 
 .header .topbar .social ul li a:hover {
-  color: #638d3d;
+  color: #dac79f;
 }
 
 .header .topbar .dropdown .dropdown-toggle {
@@ -7776,13 +7776,15 @@ textarea.form-control {
 
 .map-listing .map-icon.icon-01 {
   position: absolute;
-  top: 2.5%;
-  left: 45.5%;
+  top: 10%;
+  left: 34.5%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 .i-map-first {
   font-size: 90px !important;
+  display: flex;
+  align-items: center;
 }
 .map-listing .map-icon.icon-02 {
   position: absolute;
@@ -7859,8 +7861,8 @@ blockquote i {
     height: 1300px;
   }
   .map-listing .map-icon.icon-01 {
-    top: 2.5%;
-    left: 42%;
+    top: 9.5%;
+    left: 31.5%;
   }
   .i-map-first {
     font-size: 70px !important;
@@ -7921,8 +7923,8 @@ blockquote i {
     display: none;
   }
   .map-listing .map-icon.icon-01 {
-    top: 2%;
-    left: 43.5%;
+    top: 9%;
+    left: 34%;
   }
   .i-map-first {
     font-size: 60px !important;
@@ -7990,8 +7992,8 @@ blockquote i {
   }
 
   .map-listing .map-icon.icon-01 {
-    top: 0%;
-    left: 41%;
+    top: 9%;
+    left: 28.5%;
   }
 
   .map-listing .map-icon.icon-02 {
@@ -8100,8 +8102,8 @@ blockquote i {
     font-size: 35px !important;
   }
   .map-listing .map-icon.icon-01 {
-    top: -2%;
-    left: 36%;
+    top: 9%;
+    left: 20%;
   }
 
   .map-listing .map-icon.icon-02 {
