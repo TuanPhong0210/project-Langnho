@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Làng Nhỏ - Hồ Láng Nhớt</title>
+    <link rel="shortcut icon" href="~/Content/images/favicon-yellow.png" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&amp;family=Vujahday+Script:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&amp;display=swap"
+          rel="stylesheet">
+
+    <!-- CSS Chính-->
+    <link rel="stylesheet" href="~/Content/css/fontawesome/all.min.css" />
+    <link rel="stylesheet" href="~/Content/css/bootstrap/bootstrap.min.css" />
+    <!-- CSS Phụ-->
+    <link rel="stylesheet" href="~/Content/css/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="~/Content/css/animate/animate.min.css" />
+    <link rel="stylesheet" href="~/Content/css/swiper/swiper.min.css" />
+    <link rel="stylesheet" href="~/Content/css/datetimepicker/datetimepicker.min.css" />
+    <link rel="stylesheet" href="~/Content/css/range-slider/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="~/Content/css/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="~/Content/css/select2/select2.css" />
+    <!-- Style -->
+    <link rel="stylesheet" href="~/Content/css/style.css" />
+</head>
+<body>
+    <header class="header header-3 header-sticky default">
+        <div class="topbar d-none d-md-block">
+            <div class="container-fluid">
+                <div class="topbar-inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-lg-flex align-items-center text-center">
+                                <div class="topbar-left mb-2 mb-lg-0">
+                                    <div class="topbar-call d-inline-flex">
+                                        <a href="tel:0901442887"><i class="fa-solid fa-phone-volume"></i> HotLine: 090 144 28 87</a>
+                                    </div>
+                                    <div class="topbar-call d-inline-flex">
+                                        <a href="mailto:admin@naturallifevn.com">
+                                            <i class="fa-solid fa-envelope-open-text"></i> Email:
+                                            info@naturallifevn.com
+                                        </a>
+                                    </div>
+                                    <div class="me-auto d-inline-flex">
+                                        <a href="https://goo.gl/maps/V5hY9fSNGYVpQhTG8" target="_blank">
+                                            <i class="fa-solid fa-location-dot me-2"></i>Hồ Láng Nhớt - Thôn Đá Mài - Xã Diên Tân - Huyện Diên
+                                            Khánh - Tỉnh Khánh Hòa - Việt Nam
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="topbar-right ms-auto justify-content-center">
+                                    <div class="social d-inline-flex">
+                                        <ul class="list-unstyled">
+                                            <li>
+                                                <a href="https://www.facebook.com/naturallifevietnam" target="_blank">
+                                                    <i class="fa-brands fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://zalo.me/3273522059904261590" target="_blank">
+                                                    <i class="fa-brands fa-z"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.instagram.com/langnhoholangnhot/" target="_blank">
+                                                    <i class="fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-static-top navbar-expand-lg">
+            <div class="container-fluid main-header position-relative">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                    <i class="fas fa-align-left"></i>
+                </button>
+                <a class="navbar-brand" href="index-03.html">
+                    <img class="img-fluid" src="~/Content/images/logo-langnho.png" alt="logo">
+                </a>
+                <div class="navbar-collapse collapse justify-content-end">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item dropdown active">
+                            <a class="nav-link" href="@Url.Action("Index")">Trang Chủ</i></a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a class="nav-link" href="@Url.Action("Tour")">Dịch Vụ</a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a class="nav-link" href="@Url.Action("About")">Natural Life</a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a class="nav-link" href="@Url.Action("Contact")">Liên Hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+        <hr />
+        <footer class="footer">
+            <div class="min-footer bg-light">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12">
+                            <a class="footer-logo" href="index.html">
+                                <img class="img-fluid" src="~/Content/images/logo-langnho.png" alt="logo">
+                            </a>
+                            <p class="mt-4 mb-0">Back to the nature to healthy and Long Life</p>
+                            <div class="social-icon mt-4 mt-lg-5">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/naturallifevietnam" target="_blank">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://zalo.me/3273522059904261590" target="_blank"> <i class="fa-brands fa-z"></i> </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/langnhoholangnhot/" target="_blank">
+                                            <i class="fab fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 mt-3 mt-md-5 mt-lg-0">
+
+                        </div>
+
+                        <div class="col-lg-5 col-md-6 mt-5 mt-md-5 mt-lg-0 position-relative">
+                            <div class="footer-link">
+                                <h6 class="footer-title fw-600">Liên hệ Làng Nhỏ</h6>
+                                <div class="footer-contact-info">
+                                    <ul class="list-unstyled mb-0">
+                                        <li>
+                                            <i class="text-primary fa-solid fa-location-dot"></i><span class="address">
+                                                Hồ
+                                                Láng Nhớt - Thôn Đá Mài - Xã Diên Tân - Huyện Diên Khánh - Tỉnh Khánh Hòa -
+                                                Việt Nam
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="text-primary fa-solid fa-phone-volume"></i><span class="phone">
+                                                090 144
+                                                28 87
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <i class="text-primary fa-solid fa-envelope-open-text"></i><span class="email">info@naturallifevn.com</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+    <!-- JS Global Compulsory (Do not remove)-->
+    <script src="~/Content/js/jquery-3.6.0.min.js"></script>
+    <script src="~/Content/js/jquery.appear.js"></script>
+    <script src="~/Content/js/popper/popper.min.js"></script>
+    <script src="~/Content/js/bootstrap/bootstrap.min.js"></script>
+    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+    <script src="~/Content/js/select2/select2.full.js"></script>
+    <script src="~/Content/js/datetimepicker/moment.min.js"></script>
+    <script src="~/Content/js/datetimepicker/datetimepicker.min.js"></script>
+    <script src="~/Content/js/owl-carousel/owl.carousel.min.js"></script>
+    <script src="~/Content/js/swiper/swiper.min.js"></script>
+    <script src="~/Content/js/swiperanimation/SwiperAnimation.min.js"></script>
+    <script src="~/Content/js/range-slider/ion.rangeSlider.min.js"></script>
+    <script src="~/Content/js/countdown/jquery.downCount.js"></script>
+    <script src="~/Content/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Template Scripts (Do not remove)-->
+    <script src="~/Content/js/custom.js"></script>
+</body>
+</html>
