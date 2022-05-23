@@ -16,6 +16,10 @@ namespace LangNho.Controllers
         {
             return View();
         }
+        public ActionResult Tour_Detail()
+        {
+            return View();
+        }
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";

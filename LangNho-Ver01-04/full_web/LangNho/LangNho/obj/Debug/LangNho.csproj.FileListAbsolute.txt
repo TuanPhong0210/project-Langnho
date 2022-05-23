@@ -152,6 +152,5 @@ D:\Dev\Github\WEB_Hello\project-Langnho\LangNho-Ver01-04\full_web\LangNho\LangNh
 D:\Dev\Github\WEB_Hello\project-Langnho\LangNho-Ver01-04\full_web\LangNho\LangNho\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Dev\Github\WEB_Hello\project-Langnho\LangNho-Ver01-04\full_web\LangNho\LangNho\obj\Debug\LangNho.csproj.AssemblyReference.cache
 D:\Dev\Github\WEB_Hello\project-Langnho\LangNho-Ver01-04\full_web\LangNho\LangNho\obj\Debug\LangNho.csproj.CoreCompileInputs.cache
-D:\Dev\Github\WEB_Hello\project-Langnho\LangNho-Ver01-04\full_web\LangNho\LangNho\obj\Debug\LangNho.csproj.CopyComplete
 D:\Dev\Github\WEB_Hello\project-Langnho\LangNho-Ver01-04\full_web\LangNho\LangNho\obj\Debug\LangNho.dll
 D:\Dev\Github\WEB_Hello\project-Langnho\LangNho-Ver01-04\full_web\LangNho\LangNho\obj\Debug\LangNho.pdb
